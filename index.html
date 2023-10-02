@@ -6,29 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" media="screen and (max-width:1000px)" href="./phone.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="./phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo">
+    <nav class="navbar">
+        <div class="logo">
             <img src="./Images/logo 1.jpg" alt="Logo">
         </div>
-        <ul>
+        <ul class="navbar-list">
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#servicecontainer">Services</a></li>
             <li class="item"><a href="#client-section">About Us</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
 
         </ul>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
 
     </nav>
     <section id="home">
         <h1 class="hprimary">Welcome to my Website</h1>
-        <p>This  is a restuarant website ipsum dolor sit amet consectetur adipisicing elit. Ipsam deserunt vel iure nulla eum fugiat et aliquid
+        <p>This is a restuarant website ipsum dolor sit amet consectetur adipisicing elit. Ipsam deserunt vel iure nulla
+            eum fugiat et aliquid
             nesciunt quos inventore consequuntur quisquam necessitatibus nihil, dolore odio eligendi ipsum quasi
             recusandae.piciatiunt!
         </p>
@@ -38,27 +43,27 @@
     </section>
     <section class="servicecontainer">
 
-        <h1 class="center" >Our Services</h1>
+        <h1 class="center">Our Services</h1>
         <div id="services">
             <div class="box">
-                <img src="./Images/pexels-rajesh-tp-1633525.jpg"    alt="random">
+                <img src="./Images/pexels-rajesh-tp-1633525.jpg" alt="random">
                 <h2 class="center">Food Ordering</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat dolores laudantium, autem
-                    aspernatur sunt nobis qui 
+                    aspernatur sunt nobis qui
                     inventore ipsum quo explicabo!</p>
             </div>
             <div class="box">
-                <img src="./Images/pexels-jane-doan-892649.jpg"    alt="random">
+                <img src="./Images/pexels-jane-doan-892649.jpg" alt="random">
                 <h2 class="center">Food Catering</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat dolores laudantium, autem
-                    aspernatur sunt nobis qui 
+                    aspernatur sunt nobis qui
                     inventore ipsum quo explicabo!</p>
             </div>
             <div class="box">
-                <img src="./Images/vegetable-skewer-3317060_1280.jpg"  width="130px"  alt="random">
+                <img src="./Images/vegetable-skewer-3317060_1280.jpg" width="130px" alt="random">
                 <h2 class="center">Bulk Ordering</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat dolores laudantium, autem
-                    aspernatur sunt nobis qui 
+                    aspernatur sunt nobis qui
                     inventore ipsum quo explicabo!</p>
             </div>
         </div>
@@ -111,6 +116,12 @@
         </div>
     </footer>
 
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 
 </html
